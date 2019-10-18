@@ -34,7 +34,7 @@ for sides in range(8, 100, 8):
 # Accumulators
 
 acc = 0
-for val in range(1, 6, 1):
+for val in range(1, 6, 3):
     acc = acc + val
 
 print(acc)
@@ -52,3 +52,12 @@ print(acc)
 #   Fibonacci number.
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
+
+
+# A Monte Carlo Simulation
+
+# random numbers
+
+import random
+
+print(random.random())
