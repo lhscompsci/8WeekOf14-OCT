@@ -159,3 +159,8 @@ def showMontePi(numDarts):
     pi = inCircle / numDarts * 4
     scn.exitonclick()
     return pi
+
+print(showMontePi(1000))
+
+# Assignment:  Modify the simulation to plot points in the entire circle.
+#   You will have to adjust the calculated value for pi accordingly.
